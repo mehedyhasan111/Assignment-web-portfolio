@@ -77,7 +77,13 @@ footer p{
 }
 .icon{
     float:left;
-    margin-left:300px;
+    
+    
+    
+    
+}
+.icon img{
+    width:40%;
     
 }
 .work{
@@ -85,11 +91,55 @@ footer p{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 800px;
+    
     border-radius: 20px;
     border:5px solid white;
+    
+    
+    
 
+}
+.work img{
+    width:100%;
+}
+.work-query{
+    display:inline-flex;
+    
 }
 #high-lighter{
     color:white;
+}
+.list{
+    text-decoration: none;
+}
+ul{
+    margin-left: 860px;
+    
+
+}
+ul li{
+    list-style:none;
+    display:inline-block;
+    
+    line-height: 100px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    font-size:16px;
+    font-weight:bolder;
+    font-family:arial;
+    color: black;
+    padding:0px 20px;
+    
+}
+nav{
+    width:100%;
+    height:100px;
+    background-color:#fff;
+}
+#right-left{
+    margin-left:530px;
 }
 
